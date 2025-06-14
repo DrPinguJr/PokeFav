@@ -1,0 +1,161 @@
+/* PokeFav/css/Fav.css */
+
+/* Base Layout & Container */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f6f8;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Navbar inherits from styles.css */
+  
+  /* Card Overview: Image & Info Side-by-Side */
+  .card-overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    margin: 2rem 0;
+  }
+  .card-overview .card-image {
+    flex: 1 1 320px;
+    text-align: center;
+  }
+  .card-overview .card-image img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  }
+  .card-overview .card-info {
+    flex: 2 1 400px;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .card-overview .card-info h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #1a252f;
+    margin-bottom: 1rem;
+  }
+  .card-overview .card-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .card-overview .card-info li {
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-size: 0.95rem;
+  }
+  
+  /* Color Variants */
+  .panel-colorA {
+    background: #eef2f5;
+  }
+  .banner-colorB {
+    background: #d0e7ff;
+  }
+  
+  /* Section Banner */
+  .card-banner {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+  }
+  .card-banner h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #1a252f;
+  }
+  
+  /* Panels Container for split sections */
+  .card-panels.split-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  .card-panels.split-layout .panel {
+    flex: 1 1 calc(50% - 1rem);
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .card-panels.split-layout .panel h4 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #1a252f;
+    margin-bottom: 1rem;
+  }
+  .card-panels.split-layout .panel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .card-panels.split-layout .panel ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+  }
+  .card-panels.split-layout .panel p.variant-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #4a5568;
+  }
+  
+  /* Lore & Trivia Centered Section */
+  .card-lore.lore-centered {
+    background: #eef2f5;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 2rem 0;
+  }
+  .card-lore.lore-centered h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1a252f;
+  }
+  .card-lore.lore-centered p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  }
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .footer-nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .footer p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
